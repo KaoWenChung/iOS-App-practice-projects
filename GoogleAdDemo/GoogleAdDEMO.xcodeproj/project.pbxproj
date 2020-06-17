@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21EA6F2C245AB17F00CB8863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA6F2B245AB17F00CB8863 /* AppDelegate.swift */; };
+		21EA6F2E245AB17F00CB8863 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA6F2D245AB17F00CB8863 /* SceneDelegate.swift */; };
+		21EA6F30245AB17F00CB8863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA6F2F245AB17F00CB8863 /* ViewController.swift */; };
+		21EA6F33245AB17F00CB8863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EA6F31245AB17F00CB8863 /* Main.storyboard */; };
+		21EA6F35245AB18100CB8863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EA6F34245AB18100CB8863 /* Assets.xcassets */; };
+		21EA6F38245AB18100CB8863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EA6F36245AB18100CB8863 /* LaunchScreen.storyboard */; };
+		6A05005D2EA1DDE52A9A2821 /* Pods_GoogleAdDEMO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCB2EEFFC3B2215C73EB2D6 /* Pods_GoogleAdDEMO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04CE34BB183F4DBB19B3EB10 /* Pods-GoogleAdDEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAdDEMO.debug.xcconfig"; path = "Target Support Files/Pods-GoogleAdDEMO/Pods-GoogleAdDEMO.debug.xcconfig"; sourceTree = "<group>"; };
+		21EA6F28245AB17F00CB8863 /* GoogleAdDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAdDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EA6F2B245AB17F00CB8863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21EA6F2D245AB17F00CB8863 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21EA6F2F245AB17F00CB8863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21EA6F32245AB17F00CB8863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21EA6F34245AB18100CB8863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21EA6F37245AB18100CB8863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21EA6F39245AB18100CB8863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DCB2EEFFC3B2215C73EB2D6 /* Pods_GoogleAdDEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleAdDEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85ECED5758F00F4469822B85 /* Pods-GoogleAdDEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAdDEMO.release.xcconfig"; path = "Target Support Files/Pods-GoogleAdDEMO/Pods-GoogleAdDEMO.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21EA6F25245AB17F00CB8863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A05005D2EA1DDE52A9A2821 /* Pods_GoogleAdDEMO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21EA6F1F245AB17F00CB8863 = {
+			isa = PBXGroup;
+			children = (
+				21EA6F2A245AB17F00CB8863 /* GoogleAdDEMO */,
+				21EA6F29245AB17F00CB8863 /* Products */,
+				DBCBB2A45D650EFFF95A6CAC /* Pods */,
+				74B59DD9148ADDED08B2C159 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21EA6F29245AB17F00CB8863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21EA6F28245AB17F00CB8863 /* GoogleAdDEMO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21EA6F2A245AB17F00CB8863 /* GoogleAdDEMO */ = {
+			isa = PBXGroup;
+			children = (
+				21EA6F2B245AB17F00CB8863 /* AppDelegate.swift */,
+				21EA6F2D245AB17F00CB8863 /* SceneDelegate.swift */,
+				21EA6F2F245AB17F00CB8863 /* ViewController.swift */,
+				21EA6F31245AB17F00CB8863 /* Main.storyboard */,
+				21EA6F34245AB18100CB8863 /* Assets.xcassets */,
+				21EA6F36245AB18100CB8863 /* LaunchScreen.storyboard */,
+				21EA6F39245AB18100CB8863 /* Info.plist */,
+			);
+			path = GoogleAdDEMO;
+			sourceTree = "<group>";
+		};
+		74B59DD9148ADDED08B2C159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DCB2EEFFC3B2215C73EB2D6 /* Pods_GoogleAdDEMO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBCBB2A45D650EFFF95A6CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04CE34BB183F4DBB19B3EB10 /* Pods-GoogleAdDEMO.debug.xcconfig */,
+				85ECED5758F00F4469822B85 /* Pods-GoogleAdDEMO.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21EA6F27245AB17F00CB8863 /* GoogleAdDEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EA6F3C245AB18100CB8863 /* Build configuration list for PBXNativeTarget "GoogleAdDEMO" */;
+			buildPhases = (
+				233CCA24C1B9ACE00D43B831 /* [CP] Check Pods Manifest.lock */,
+				21EA6F24245AB17F00CB8863 /* Sources */,
+				21EA6F25245AB17F00CB8863 /* Frameworks */,
+				21EA6F26245AB17F00CB8863 /* Resources */,
+				9DA16E99BA8C47043235C8EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleAdDEMO;
+			productName = GoogleAdDEMO;
+			productReference = 21EA6F28245AB17F00CB8863 /* GoogleAdDEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21EA6F20245AB17F00CB8863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Wyn;
+				TargetAttributes = {
+					21EA6F27245AB17F00CB8863 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 21EA6F23245AB17F00CB8863 /* Build configuration list for PBXProject "GoogleAdDEMO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21EA6F1F245AB17F00CB8863;
+			productRefGroup = 21EA6F29245AB17F00CB8863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21EA6F27245AB17F00CB8863 /* GoogleAdDEMO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21EA6F26245AB17F00CB8863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EA6F38245AB18100CB8863 /* LaunchScreen.storyboard in Resources */,
+				21EA6F35245AB18100CB8863 /* Assets.xcassets in Resources */,
+				21EA6F33245AB17F00CB8863 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		233CCA24C1B9ACE00D43B831 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleAdDEMO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DA16E99BA8C47043235C8EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleAdDEMO/Pods-GoogleAdDEMO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleAdDEMO/Pods-GoogleAdDEMO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleAdDEMO/Pods-GoogleAdDEMO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21EA6F24245AB17F00CB8863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EA6F30245AB17F00CB8863 /* ViewController.swift in Sources */,
+				21EA6F2C245AB17F00CB8863 /* AppDelegate.swift in Sources */,
+				21EA6F2E245AB17F00CB8863 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21EA6F31245AB17F00CB8863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21EA6F32245AB17F00CB8863 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21EA6F36245AB18100CB8863 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21EA6F37245AB18100CB8863 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21EA6F3A245AB18100CB8863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21EA6F3B245AB18100CB8863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21EA6F3D245AB18100CB8863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CE34BB183F4DBB19B3EB10 /* Pods-GoogleAdDEMO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QN4P34VRJ;
+				INFOPLIST_FILE = GoogleAdDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyn.GoogleAdDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21EA6F3E245AB18100CB8863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85ECED5758F00F4469822B85 /* Pods-GoogleAdDEMO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QN4P34VRJ;
+				INFOPLIST_FILE = GoogleAdDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyn.GoogleAdDEMO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21EA6F23245AB17F00CB8863 /* Build configuration list for PBXProject "GoogleAdDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EA6F3A245AB18100CB8863 /* Debug */,
+				21EA6F3B245AB18100CB8863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21EA6F3C245AB18100CB8863 /* Build configuration list for PBXNativeTarget "GoogleAdDEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EA6F3D245AB18100CB8863 /* Debug */,
+				21EA6F3E245AB18100CB8863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21EA6F20245AB17F00CB8863 /* Project object */;
+}

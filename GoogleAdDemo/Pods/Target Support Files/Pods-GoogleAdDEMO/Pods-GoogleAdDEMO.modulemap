@@ -1,0 +1,6 @@
+framework module Pods_GoogleAdDEMO {
+  umbrella header "Pods-GoogleAdDEMO-umbrella.h"
+
+  export *
+  module * { export * }
+}
