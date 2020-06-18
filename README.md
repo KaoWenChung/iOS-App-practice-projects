@@ -47,24 +47,24 @@ This is my studied about swift.
 
 ## 11 - QRCodeReader
 使用 AVFoundation framework 實行 偵測 QR Code 並進行資訊解碼，配合 URL Scheme 可以直接打開並傳送訊息至其他應用程式。
-
-
+<br/>
+<br/>
 ## 12 - SampleCamera
 使用 AVFoundation framework 來建立相機介面
 - 使用前鏡頭與後鏡頭相機來擷取靜態圖像
 - 使用手勢辨識器來偵測滑動（swipe）手勢
 - 為相機 App 加入縮放功能
 - 儲存圖片至照片膠卷
-
-
+<br/>
+<br/>
 ## 13 - SimpleVideoCamera
 使用 AVFoundation framework 錄製影片並用 AVKit 播放影音檔。
-
-
+<br/>
+<br/>
 ## 14 - GoogleAd
 使用 CocoaPods 安裝 Google Mobile Ads SDK 製作表格視圖標題顯示橫幅廣告與播放插播廣告。
-
-
+<br/>
+<br/>
 ## 15 - CustomFont
 使用程式自訂字型
 
