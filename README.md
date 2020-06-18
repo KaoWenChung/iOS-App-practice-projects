@@ -115,3 +115,34 @@ Cell 尺寸自適應與動態型態
 - 使用外部資料檔
 - 在專案中使用現有的資料庫
 <br/><br/>
+## 30 - Route
+使用 MKDirections API 來取得在多個標註（annotation）間以路徑為基礎的方向，並在地圖視圖上顯示路徑。
+- 使用手勢偵測器偵測觸控用按壓的方式在地圖上定位一個位置
+- 大頭針落下動畫
+- 以折線連結標註
+- 連結標註與路徑
+- 移除標註
+<br/><br/>
+## 31 - CuteSticker
+建立一個簡單的貼圖 App。
+<br/><br/>
+## 32 - CollectionViewSelection
+建立一個 iMessage App，讓使用者可以馬上在訊息 App 中取得圖示。使用者可以挑選一個圖示並傳送給另一位使用者。在接收端，接收者只要點擊訊息便可以打開此圖示來觀看細節。
+- 使用嵌入的框架來分享程式
+- 設計 iMessage App 的UI
+- 加入訊息至對話中
+- 按下訊息 App 後，帶出細節視圖控制器，顯示資訊細節
+<br/><br/>
+## 33 - FancyButton
+使用 IBDesignable 與 IBInspectable 來自訂 UI 元件。
+<br/><br/>
+## 34 - Firebase
+使用 Firebase 實作使用者 Facebook 、Google 與 Email 登入驗證，實作使用者帳號相關的功能。
+- 註冊
+- 登入
+- 登出
+- 重設密碼
+- Email 認證
+<br/><br/>
+## 35 - FirebaseStorage
+使用 Firebase Database 與 Storage 來建立一個 Instagram 類型的 App
