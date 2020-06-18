@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LcO-dw-SNA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LcO-dw-SNA">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -48,6 +48,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rGS-mI-rbU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                            </mapView>
                             <button opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpj-yl-bg6">
                                 <rect key="frame" x="324" y="0.0" width="35" height="35"/>
                                 <color key="backgroundColor" red="0.1137254902" green="0.1215686275" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -121,13 +124,18 @@
                             <constraint firstItem="tZO-Dq-2xb" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ial-l8-Ek4" secondAttribute="leading" constant="20" symbolic="YES" id="MG7-C7-cNg"/>
                             <constraint firstItem="jEj-5k-AC1" firstAttribute="trailing" secondItem="Ial-l8-Ek4" secondAttribute="trailingMargin" id="Qzf-FC-f5I"/>
                             <constraint firstItem="htv-19-Sbi" firstAttribute="bottom" secondItem="tZO-Dq-2xb" secondAttribute="bottom" constant="20" id="RYv-vu-RpS"/>
+                            <constraint firstItem="rGS-mI-rbU" firstAttribute="leading" secondItem="htv-19-Sbi" secondAttribute="leading" id="ad7-pQ-O4E"/>
                             <constraint firstItem="w5N-kK-dE8" firstAttribute="trailing" secondItem="Ial-l8-Ek4" secondAttribute="trailingMargin" id="cIa-Vl-Yh7"/>
+                            <constraint firstItem="rGS-mI-rbU" firstAttribute="top" secondItem="Ial-l8-Ek4" secondAttribute="top" id="l7s-1T-EYA"/>
+                            <constraint firstAttribute="bottom" secondItem="rGS-mI-rbU" secondAttribute="bottom" id="pLH-f9-Te2"/>
                             <constraint firstItem="Tpj-yl-bg6" firstAttribute="trailing" secondItem="Ial-l8-Ek4" secondAttribute="trailingMargin" id="vhr-7S-beu"/>
                             <constraint firstItem="jEj-5k-AC1" firstAttribute="top" secondItem="Tpj-yl-bg6" secondAttribute="bottom" constant="8" id="xwJ-x3-wqG"/>
+                            <constraint firstItem="htv-19-Sbi" firstAttribute="trailing" secondItem="rGS-mI-rbU" secondAttribute="trailing" id="yeg-p8-g67"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="htv-19-Sbi"/>
                     </view>
                     <connections>
+                        <outlet property="mapView" destination="rGS-mI-rbU" id="kjg-FG-I7U"/>
                         <outlet property="segmentedControl" destination="tZO-Dq-2xb" id="2Xx-Mr-uhS"/>
                         <segue destination="5QX-IZ-fj3" kind="presentation" identifier="showSteps" id="dc7-Ba-1bp"/>
                     </connections>
