@@ -4,30 +4,30 @@ This is my studied about swift.
 ## 01 - AdaptiveUI
 未撰寫程式碼。主要使用 Storyboard 來進行使用者介面元件的佈局，使用 Auto Layout 以及尺寸類別來讓 UI 可以自適應。
 建立一個具有單一視圖控制器（view controller），可以適應多種螢幕尺寸以及方向的 App。
-
-
+<br/>
+<br/>
 ## 02 - IndexedTable  [Blog](https://medium.com/@k022298/add-an-index-in-tableview-feeb919f82ab)
 在表格視圖中顯示一系列的動物清單。除了列出所有動物外，這個 App 將動物群組起來至不同區塊，並顯示一個可以快速存取的索引列表。
-
+<br/>
+<br/>
 ## 03 - TableCellAnimation
 加入動畫使表格動畫更加活潑
-
-
+<br/><br/>
 ## 04 - KivaLoan
 使用 [Kiva.org](https://www.kiva.org/) 的 JSON API來取得最近的融資貸款。
-
+<br/><br/>
 
 ## 05 - SocialSharing
 整合 Facebook 與 Twitter 所提供的 SDK，使使用者可以在 App 中推文到 Twitter 或刊登到 Facebook 上。
-
+<br/><br/>
 
 ## 06 - EmailAttachment
 使用 MessageUI 這個內建 API 撰寫一個簡單的 App 來示範如何傳送 email 與如何加入 email 附加檔案。
-
+<br/><br/>
 
 ## 07 - SMS
 使用 MessageUI 進行 SMS 與 MMS 傳送
-
+<br/><br/>
 
 ## 08 - MapKitDirection
 使用 MKDirections API
@@ -35,16 +35,16 @@ This is my studied about swift.
 - 計算路徑並將它畫在地圖上
 - 使用分段控制
 - 取得路徑步驟並顯示開車/步行路徑的導引
-
+<br/><br/>
 
 ## 09 - LocalSearch
 使用 MKLocalSearch API 實行在地圖上搜尋附近同性質的地點並顯示在地圖上。
-
+<br/><br/>
 
 ## 10 - Record  [Blog](https://medium.com/@k022298/create-an-audio-recorder-in-xcode-30adaec2e1d7)
 使用 AVFoundation framework 的 AVAudioRecorder 與 AVAudioPlayer 製作一個錄音加播放的APP。
-
-
+<br/>
+<br/>
 ## 11 - QRCodeReader
 使用 AVFoundation framework 實行 偵測 QR Code 並進行資訊解碼，配合 URL Scheme 可以直接打開並傳送訊息至其他應用程式。
 <br/>
@@ -67,17 +67,18 @@ This is my studied about swift.
 <br/>
 ## 15 - CustomFont
 使用程式自訂字型
-
+<br/><br/>
 
 ## 16 - AirDrop
 建立 UIActivityViewController 的實例，透過 AirDrop 來分享圖片與檔案。
-
+<br/><br/>
 
 ## 17 - CollectionView
 使用 UICollectionView 製作一個簡單的商品清單。
-
+<br/><br/>
 
 ## 18 - DoodleFun
 延續上一章，新增互動功能
 - 當使用者按下圖示時，這個 App 會帶出一個強制回應（Modal）視圖，並將圖示以較大的尺寸來顯示。
 - 新增複選動作，實作分享功能。使用者可以選擇多張圖示，並使用動態視圖控制器來進行分享。
+<br/><br/>
