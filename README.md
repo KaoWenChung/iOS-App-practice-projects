@@ -51,12 +51,12 @@ This is my studied about swift.
 
 ## 12 - SampleCamera
 使用 AVFoundation framework 來建立相機介面
-* 使用前鏡頭與後鏡頭相機來擷取靜態圖像
-* 使用手勢辨識器來偵測滑動（swipe）手勢
-* 為相機 App 加入縮放功能
-* 儲存圖片至照片膠卷
+- 使用前鏡頭與後鏡頭相機來擷取靜態圖像
+- 使用手勢辨識器來偵測滑動（swipe）手勢
+- 為相機 App 加入縮放功能
+- 儲存圖片至照片膠卷
 
-
+  
 ## 13 - SimpleVideoCamera
 使用 AVFoundation framework 錄製影片並用 AVKit 播放影音檔。
 
