@@ -56,7 +56,7 @@ This is my studied about swift.
 - 為相機 App 加入縮放功能
 - 儲存圖片至照片膠卷
 
-  
+
 ## 13 - SimpleVideoCamera
 使用 AVFoundation framework 錄製影片並用 AVKit 播放影音檔。
 
@@ -69,15 +69,15 @@ This is my studied about swift.
 使用程式自訂字型
 
 
-# 16 - AirDrop
+## 16 - AirDrop
 建立 UIActivityViewController 的實例，透過 AirDrop 來分享圖片與檔案。
 
 
-# 17 - CollectionView
+## 17 - CollectionView
 使用 UICollectionView 製作一個簡單的商品清單。
 
 
-# 18 - DoodleFun
+## 18 - DoodleFun
 延續上一章，新增互動功能
 - 當使用者按下圖示時，這個 App 會帶出一個強制回應（Modal）視圖，並將圖示以較大的尺寸來顯示。
 - 新增複選動作，實作分享功能。使用者可以選擇多張圖示，並使用動態視圖控制器來進行分享。
