@@ -31,10 +31,10 @@ This is my studied about swift.
 
 ## 08 - MapKitDirection
 使用 MKDirections API
--取得目前使用者的位置
--計算路徑並將它畫在地圖上
--使用分段控制
--取得路徑步驟並顯示開車/步行路徑的導引
+- 取得目前使用者的位置
+- 計算路徑並將它畫在地圖上
+- 使用分段控制
+- 取得路徑步驟並顯示開車/步行路徑的導引
 
 
 ## 09 - LocalSearch
@@ -51,10 +51,10 @@ This is my studied about swift.
 
 ## 12 - SampleCamera
 使用 AVFoundation framework 來建立相機介面
--使用前鏡頭與後鏡頭相機來擷取靜態圖像
--使用手勢辨識器來偵測滑動（swipe）手勢
--為相機 App 加入縮放功能
--儲存圖片至照片膠卷
+* 使用前鏡頭與後鏡頭相機來擷取靜態圖像
+* 使用手勢辨識器來偵測滑動（swipe）手勢
+* 為相機 App 加入縮放功能
+* 儲存圖片至照片膠卷
 
 
 ## 13 - SimpleVideoCamera
@@ -70,3 +70,14 @@ This is my studied about swift.
 
 
 # 16 - AirDrop
+建立 UIActivityViewController 的實例，透過 AirDrop 來分享圖片與檔案。
+
+
+# 17 - CollectionView
+使用 UICollectionView 製作一個簡單的商品清單。
+
+
+# 18 - DoodleFun
+延續上一章，新增互動功能
+- 當使用者按下圖示時，這個 App 會帶出一個強制回應（Modal）視圖，並將圖示以較大的尺寸來顯示。
+- 新增複選動作，實作分享功能。使用者可以選擇多張圖示，並使用動態視圖控制器來進行分享。
