@@ -146,3 +146,27 @@ Cell 尺寸自適應與動態型態
 <br/><br/>
 ## 35 - FirebaseStorage
 使用 Firebase Database 與 Storage 來建立一個 Instagram 類型的 App
+- 使用 ImagePicker 這個第三方函式庫來建立像 Instagram 一樣的相機 UI。
+- 使用 Firebase Database來儲存資料（例如，貼文資訊）並在 Firebase 資料庫中建構 JSON 資料。
+- 使用 Firebase Storage 來儲存圖片。
+- 利用 Firebase Database 與 Storage 來進行資料的上傳與下載。
+- 限制從 Firebase 下載的資料數。
+- 在表格視圖實作無限的滾動（scroll）。
+<br/><br/>
+## 36 - ImageRecognition
+使用 Apple 現成已經訓練過的 Core ML 模型 [Inception v3](https://docs-assets.developer.apple.com/coreml/models/Inceptionv3.mlmodel)實作即時影像辨識應用。
+<br/><br/>
+## 37 - ARKitDemo
+使用 SpriteKit 與 ARKit 做一個簡單的 AR APP，實作以下功能。
+- 加入 2D 物件至真實世界的空間中
+- 將 2D 物件從空間移除
+- 跟虛擬物件互動
+<br/><br/>
+## 38 - ARKitRobot
+- 配對 SceneKit 與 ARKit
+- 加入 3D 物件至 AR 環境中
+- 偵測一個水平面並將虛擬 3D 物件放進去
+<br/><br/>
+## 39 - SwiftUI-Text
+使用SwiftUI做文字的處理。
+<br/><br/>
