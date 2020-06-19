@@ -177,3 +177,8 @@ Cell 尺寸自適應與動態型態
 ## 39 - SwiftUI-Text
 使用SwiftUI做文字的處理。
 <br/><br/>
+## 40 - Bullseye
+線上課程[raywenderlich](https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app/lessons/1)，使用 SwiftUI 做一個目測比例的Game。
+<br/><br/>
+## 41 -
+線上課程[Udacity](https://classroom.udacity.com/courses/ud585)，製作一個變音應用。
