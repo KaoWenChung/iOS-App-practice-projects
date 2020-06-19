@@ -10,12 +10,19 @@ This is my studied about swift.
 <br/><br/>
 ## 03 - TableCellAnimation
 加入動畫使表格動畫更加活潑
+- 淡入動畫
+- 使用 CATransform3D 建立旋轉特效
+- 使用 CATransform3DTranslate 建立飛入特效
 <br/><br/>
 ## 04 - KivaLoan
 使用 [Kiva.org](https://www.kiva.org/) 的 JSON API來取得最近的融資貸款。
+- 建立 JSON 資料模型
+- 使用 Kiva API 取得貸款資料
+- 使用 Codable 來解碼 JSON
+- 在表格視圖顯示貸款資料
 <br/><br/>
 ## 05 - SocialSharing
-整合 Facebook 與 Twitter 所提供的 SDK，使使用者可以在 App 中推文到 Twitter 或刊登到 Facebook 上。
+整合 Facebook 與 Twitter 所提供的 SDK，使使用者可以在 App 中推文到 Twitter 或刊登到 Facebook 上，實作分享功能。
 <br/><br/>
 ## 06 - EmailAttachment
 使用 MessageUI 這個內建 API 撰寫一個簡單的 App 來示範如何傳送 email 與如何加入 email 附加檔案。
