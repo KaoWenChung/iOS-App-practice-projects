@@ -180,5 +180,10 @@ Cell 尺寸自適應與動態型態
 ## 40 - Bullseye
 線上課程[raywenderlich](https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app/lessons/1)，使用 SwiftUI 做一個目測比例的Game。
 <br/><br/>
-## 41 -
+## 41 - PitchPerfect
 線上課程[Udacity](https://classroom.udacity.com/courses/ud585)，製作一個變音應用。
+<br/><br/>
+## 42 - MaskMap
+參考[彼得潘的文章](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E5%95%8F%E9%A1%8C%E8%A7%A3%E7%AD%94%E9%9B%86/%E7%94%A8-jsondecoder-%E8%A7%A3%E6%9E%90%E5%8F%A3%E7%BD%A9%E5%89%A9%E9%A4%98%E6%95%B8%E9%87%8F-api-a32e967ec9c1)串接[政府資料開放平臺 API](https://data.gov.tw/dataset/116285) 將診所口罩庫存呈現在表格試圖上。
+- 使用 Postman 測試口罩剩餘數量 API 回傳的 JSON 資料
+- 利用 JSONDecoder 解析口罩 API 的 JSON 資料
