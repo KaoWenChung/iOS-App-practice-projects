@@ -43,7 +43,7 @@ This is my studied about swift.
 <br/><br/>
 ## 10 - Record  [Blog](https://medium.com/@k022298/create-an-audio-recorder-in-xcode-30adaec2e1d7)
 使用 AVFoundation framework 的 AVAudioRecorder 與 AVAudioPlayer 製作一個錄音加播放的APP。
-![Record](References/Record.gif)
+![Record](Resources/Record.gif)
 <br/><br/>
 ## 11 - QRCodeReader
 使用 AVFoundation framework 實行 偵測 QR Code 並進行資訊解碼，配合 URL Scheme 可以直接打開並傳送訊息至其他應用程式。
