@@ -35,24 +35,27 @@ This is my studied about swift.
 <br/><br/>
 ## 07 - SMS
 使用 MessageUI 進行 SMS 與 MMS 傳送<br/>
-
+![SMS](Resources/SMS.gif)
 <br/><br/>
 ## 08 - MapKitDirection
 使用 MKDirections API
 - 取得目前使用者的位置
 - 計算路徑並將它畫在地圖上
 - 使用分段控制
-- 取得路徑步驟並顯示開車/步行路徑的導引
+- 取得路徑步驟並顯示開車/步行路徑的導引<br/>
+![MapKitDirection](Resources/MapKit.gif)
 <br/><br/>
 ## 09 - LocalSearch
-使用 MKLocalSearch API 實行在地圖上搜尋附近同性質的地點並顯示在地圖上。
+使用 MKLocalSearch API 實行在地圖上搜尋附近同性質的地點並顯示在地圖上。<br/>
+![LocalSearch](Resources/MapKit2.gif)
 <br/><br/>
 ## 10 - Record  [Blog](https://medium.com/@k022298/create-an-audio-recorder-in-xcode-30adaec2e1d7)
 使用 AVFoundation framework 的 AVAudioRecorder 與 AVAudioPlayer 製作一個錄音加播放的APP。
 ![Record](Resources/Record.gif)
 <br/><br/>
 ## 11 - QRCodeReader
-使用 AVFoundation framework 實行 偵測 QR Code 並進行資訊解碼，配合 URL Scheme 可以直接打開並傳送訊息至其他應用程式。
+使用 AVFoundation framework 實行 偵測 QR Code 並進行資訊解碼，配合 URL Scheme 可以直接打開並傳送訊息至其他應用程式。<br/>
+![QRCodeReader](Resources/QRCodeReader.gif)
 <br/><br/>
 ## 12 - SampleCamera
 使用 AVFoundation framework 來建立相機介面

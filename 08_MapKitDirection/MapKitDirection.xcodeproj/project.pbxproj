@@ -113,7 +113,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = AppCoda;
+				ORGANIZATIONNAME = Wyn;
 				TargetAttributes = {
 					F442477D1DA6439300F3F437 = {
 						CreatedOnToolsVersion = 8.0;

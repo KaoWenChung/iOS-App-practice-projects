@@ -93,9 +93,12 @@ class QRScannerController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: - Launch app
+
     func launchApp(decodedURL: String) {
-        let alertPrompt = UIAlertController(title: "Open App", message: "Your going to open \(decodedURL)", preferredStyle: .actionSheet)
+        let alertPrompt = UIAlertController(title: "Open App", message: "You're going to open \(decodedURL)", preferredStyle: .actionSheet)
         let confirmAction = UIAlertAction(title: "Confirm", style: .default, handler: { (action) -> Void in
+            
             if let url = URL(string: decodedURL) {
                 if UIApplication.shared.canOpenURL(url) {
                     UIApplication.shared.open(url, options: [:], completionHandler: nil)
@@ -133,6 +136,8 @@ extension QRScannerController: AVCaptureMetadataOutputObjectsDelegate {
             
             if metadataObj.stringValue != nil {
                 messageLabel.text = metadataObj.stringValue
+                
+                // Launch the corresponding app
                 
                 if presentedViewController != nil {
                     return

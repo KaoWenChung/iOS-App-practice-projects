@@ -40,9 +40,9 @@
 	</array>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
+		<string>textreader</string>
 		<string>fb</string>
 		<string>whatsapp</string>
-		<string>textreader</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
