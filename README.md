@@ -26,13 +26,16 @@ This is my studied about swift.
 ![KivaLoan](Resources/KivaLoan.gif)
 <br/><br/>
 ## 05 - SocialSharing
-整合 Facebook 與 Twitter 所提供的 SDK，使使用者可以在 App 中推文到 Twitter 或刊登到 Facebook 上，實作分享功能。
+整合 Facebook 與 Twitter 所提供的 SDK，使使用者可以在 App 中推文到 Twitter 或刊登到 Facebook 上，實作分享功能。<br/>
+![SocialSharing](Resources/SocialSharing.gif)
 <br/><br/>
 ## 06 - EmailAttachment
-使用 MessageUI 這個內建 API 撰寫一個簡單的 App 來示範如何傳送 email 與如何加入 email 附加檔案。
+使用 MessageUI 這個內建 API 撰寫一個簡單的 App 來示範如何傳送 email 與如何加入 email 附加檔案。<br/>
+![EmailAttachment](Resources/EmailAttachment.gif)
 <br/><br/>
 ## 07 - SMS
-使用 MessageUI 進行 SMS 與 MMS 傳送
+使用 MessageUI 進行 SMS 與 MMS 傳送<br/>
+
 <br/><br/>
 ## 08 - MapKitDirection
 使用 MKDirections API
