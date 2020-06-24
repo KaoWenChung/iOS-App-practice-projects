@@ -7,16 +7,14 @@ This is my studied about swift.
 ![AdaptiveUI](Resources/AdaptiveUI.gif)
 <br/><br/>
 ## 02 - IndexedTable  [Blog](https://medium.com/@k022298/add-an-index-in-tableview-feeb919f82ab)
-在表格視圖中顯示一系列的動物清單。除了列出所有動物外，這個 App 將動物群組起來至不同區塊，並顯示一個可以快速存取的索引列表。
-<br/>
+在表格視圖中顯示一系列的動物清單。除了列出所有動物外，這個 App 將動物群組起來至不同區塊，並顯示一個可以快速存取的索引列表。<br/>
 ![IndexedTable](Resources/IndexedTable.jpg)
 <br/><br/>
 ## 03 - TableCellAnimation
 加入動畫使表格動畫更加活潑
 - 淡入動畫
 - 使用 CATransform3D 建立旋轉特效
-- 使用 CATransform3DTranslate 建立飛入特效
-<br/>
+- 使用 CATransform3DTranslate 建立飛入特效<br/>
 ![TableCellAnimation](Resources/TableCellAnimation.gif)
 <br/><br/>
 ## 04 - KivaLoan
@@ -24,8 +22,7 @@ This is my studied about swift.
 - 建立 JSON 資料模型
 - 使用 Kiva API 取得貸款資料
 - 使用 Codable 來解碼 JSON
-- 在表格視圖顯示貸款資料
-<br/>
+- 在表格視圖顯示貸款資料<br/>
 ![KivaLoan](Resources/KivaLoan.gif)
 <br/><br/>
 ## 05 - SocialSharing
