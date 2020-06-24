@@ -15,6 +15,7 @@ This is my studied about swift.
 - 淡入動畫
 - 使用 CATransform3D 建立旋轉特效
 - 使用 CATransform3DTranslate 建立飛入特效
+![TableCellAnimation](Resources/TableCellAnimation.gif)
 <br/><br/>
 ## 04 - KivaLoan
 使用 [Kiva.org](https://www.kiva.org/) 的 JSON API來取得最近的融資貸款。
@@ -22,6 +23,7 @@ This is my studied about swift.
 - 使用 Kiva API 取得貸款資料
 - 使用 Codable 來解碼 JSON
 - 在表格視圖顯示貸款資料
+![KivaLoan](Resources/KivaLoan.gif)
 <br/><br/>
 ## 05 - SocialSharing
 整合 Facebook 與 Twitter 所提供的 SDK，使使用者可以在 App 中推文到 Twitter 或刊登到 Facebook 上，實作分享功能。

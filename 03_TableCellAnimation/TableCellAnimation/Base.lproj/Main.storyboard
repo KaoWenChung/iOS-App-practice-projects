@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oC2-Gh-0yd">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oC2-Gh-0yd">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--APPCODA-->
+        <!--NEWS-->
         <scene sceneID="xLS-5n-d1T">
             <objects>
                 <tableViewController id="mWW-No-AMY" customClass="ArticleTableViewController" customModule="TableCellAnimation" customModuleProvider="target" sceneMemberID="viewController">
@@ -23,26 +20,26 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="258"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="p2k-4k-xOw" id="MYI-sx-Q2e">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="257.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="258"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="b4i-30-HSz">
-                                            <rect key="frame" x="8" y="8" width="359" height="236.5"/>
+                                            <rect key="frame" x="16" y="11" width="343" height="231"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VBf-Hn-CRo">
-                                                    <rect key="frame" x="0.0" y="0.0" width="359" height="156"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="156"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="156" id="1ju-tS-wRc"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9t-3r-sLO">
-                                                    <rect key="frame" x="0.0" y="166" width="359" height="20.5"/>
+                                                    <rect key="frame" x="0.0" y="166" width="343" height="20.5"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BY APPCODA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uti-eG-FJi">
-                                                    <rect key="frame" x="0.0" y="196.5" width="93.5" height="40"/>
+                                                    <rect key="frame" x="0.0" y="196.5" width="93.5" height="34.5"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -71,7 +68,7 @@
                             <outlet property="delegate" destination="mWW-No-AMY" id="De2-I3-0Yn"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="APPCODA" id="76W-Zo-Bna"/>
+                    <navigationItem key="navigationItem" title="NEWS" id="76W-Zo-Bna"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shC-lT-3Ws" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -83,7 +80,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oC2-Gh-0yd" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fyo-6b-d6M">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
