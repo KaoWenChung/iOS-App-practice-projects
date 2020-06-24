@@ -118,10 +118,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = AppCoda;
+				ORGANIZATIONNAME = Wyn;
 				TargetAttributes = {
 					F49890CE1DA4F5C40064F982 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7QN4P34VRJ;
 						LastSwiftMigration = 1130;
 						ProvisioningStyle = Automatic;
 					};
@@ -313,9 +314,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QN4P34VRJ;
 				INFOPLIST_FILE = EmailAttachment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.EmailAttachment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyn.EmailAttachment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;
@@ -326,9 +328,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7QN4P34VRJ;
 				INFOPLIST_FILE = EmailAttachment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.EmailAttachment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyn.EmailAttachment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 5.0;

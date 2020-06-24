@@ -33,7 +33,7 @@ class AttachmentTableViewController: UITableViewController {
         }
     }
     
-    let filenames = ["10 Great iPhone Tips.pdf", "camera-photo-tips.html", "foggy.jpg", "Hello World.ppt", "no more complaint.png", "Why Appcoda.doc"]
+    let filenames = ["10 Great iPhone Tips.pdf", "camera-photo-tips.html", "foggy.jpg", "Hello World.ppt", "no more complaint.png", "Why Wyn.doc"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -78,7 +78,7 @@ class AttachmentTableViewController: UITableViewController {
         
         let emailTitle = "Great Photo and Doc"
         let messageBody = "Hey, Check this out!"
-        let toRecipients = ["support@appcoda.com"]
+        let toRecipients = ["k022298@gmail.com"]
         
         // Initialize mail editor and add content
         let mailComposer = MFMailComposeViewController()
@@ -106,6 +106,11 @@ class AttachmentTableViewController: UITableViewController {
             // Show mail composer on the screen
             present(mailComposer, animated: true, completion: nil)
         }
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedFile = filenames[indexPath.row]
+        showEmail(attachment: selectedFile)
     }
     
 
