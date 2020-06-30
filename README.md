@@ -15,7 +15,7 @@ This is my studied about swift.
 - 淡入動畫
 - 使用 CATransform3D 建立旋轉特效
 - 使用 CATransform3DTranslate 建立飛入特效<br/>
-![TableCellAnimation](Resources/TableCellAnimation.gif)
+![TableCellAnimation](Resources/TableCellAnimation2.gif)
 <br/><br/>
 ## 04 - KivaLoan
 使用 [Kiva.org](https://www.kiva.org/) 的 JSON API來取得最近的融資貸款。
