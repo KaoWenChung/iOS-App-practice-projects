@@ -18,12 +18,12 @@ class MaskTableViewCell: UITableViewCell {
     
     
     func setUpView(mask: Mask){
-        nameLabel.text = "Name:\(mask.name)"
-        addressLabel.text = "add:\(mask.address)"
-        telLabel.text = "tel:\(mask.tel)"
-        adultLabel.text = "adultCount:\(mask.adultCount)"
-        childLabel.text = "child:\(mask.childCount)"
-        timeLabel.text = "time:\(mask.time)"
+        nameLabel.text = mask.name
+        addressLabel.text = mask.address
+        telLabel.text = "Tel: \(mask.tel)"
+        adultLabel.text = "Adult:\(mask.adultCount)"
+        childLabel.text = "Child:\(mask.childCount)"
+        timeLabel.text = "\(mask.time)"
     }
     override func awakeFromNib() {
         super.awakeFromNib()

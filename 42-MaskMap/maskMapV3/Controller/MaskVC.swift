@@ -11,11 +11,24 @@ import UIKit
 class MaskVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
+    var spinner = UIActivityIndicatorView()
+    
     private var masks = [Mask]()
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        
+        spinner.style = .medium
+        spinner.hidesWhenStopped = true
+        view.addSubview(spinner)
+        
+        // Define the constraint of spinner
+        spinner.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([ spinner.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 150.0), spinner.centerXAnchor.constraint(equalTo: view.centerXAnchor)])
+        
+        // Start animation
+        spinner.startAnimating()
 //        getMasks()
 //    }
 //    func getMasks(){
@@ -51,6 +64,7 @@ class MaskVC: UIViewController {
                     let downloadedMasks = try decoder.decode([Mask].self, from: data!)
                         self.masks = downloadedMasks
                         DispatchQueue.main.async {
+                            self.spinner.stopAnimating()
                             self.tableView.reloadData()
                         }
 
@@ -63,6 +77,15 @@ class MaskVC: UIViewController {
             }
             dataTask.resume()
         }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showMaskDetail" {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let destinationController = segue.destination as! HospitalDetailViewController
+                destinationController.masks = masks[indexPath.row]
+            }
+        }
+    }
 }
     extension MaskVC: UITableViewDataSource, UITableViewDelegate{
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

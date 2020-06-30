@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		215CECBA24A731EA0073285C /* HospitalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215CECB924A731EA0073285C /* HospitalDetailViewController.swift */; };
+		215CECBC24A749A60073285C /* MaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215CECBB24A749A60073285C /* MaskDetailView.swift */; };
 		21B3886D241FB87A005D2A3F /* MaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B3886C241FB87A005D2A3F /* MaskTableViewCell.swift */; };
 		21B38871241FCEBE005D2A3F /* MaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B38870241FCEBE005D2A3F /* MaskVC.swift */; };
 		21EA1A4F24176E45005C78B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA1A4E24176E45005C78B6 /* AppDelegate.swift */; };
@@ -15,9 +17,12 @@
 		21EA1A5824176E46005C78B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EA1A5724176E46005C78B6 /* Assets.xcassets */; };
 		21EA1A5B24176E46005C78B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EA1A5924176E46005C78B6 /* LaunchScreen.storyboard */; };
 		21EA1A6524177F72005C78B6 /* mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA1A6424177F72005C78B6 /* mask.swift */; };
+		21F1387024A63085005737C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F1386F24A63085005737C6 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		215CECB924A731EA0073285C /* HospitalDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalDetailViewController.swift; sourceTree = "<group>"; };
+		215CECBB24A749A60073285C /* MaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskDetailView.swift; sourceTree = "<group>"; };
 		21B3886C241FB87A005D2A3F /* MaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MaskTableViewCell.swift; path = maskMapV3/View/MaskTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		21B38870241FCEBE005D2A3F /* MaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskVC.swift; sourceTree = "<group>"; };
 		21EA1A4B24176E45005C78B6 /* maskMapV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maskMapV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,6 +33,7 @@
 		21EA1A5A24176E46005C78B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21EA1A5C24176E46005C78B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21EA1A6424177F72005C78B6 /* mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mask.swift; sourceTree = "<group>"; };
+		21F1386F24A63085005737C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F1387024A63085005737C6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				21B3886C241FB87A005D2A3F /* MaskTableViewCell.swift */,
+				215CECBB24A749A60073285C /* MaskDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -61,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				21B38870241FCEBE005D2A3F /* MaskVC.swift */,
+				215CECB924A731EA0073285C /* HospitalDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -70,6 +79,7 @@
 			children = (
 				21EA1A4D24176E45005C78B6 /* maskMapV3 */,
 				21EA1A4C24176E45005C78B6 /* Products */,
+				21F1386E24A63085005737C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +105,14 @@
 				21EA1A5C24176E46005C78B6 /* Info.plist */,
 			);
 			path = maskMapV3;
+			sourceTree = "<group>";
+		};
+		21F1386E24A63085005737C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21F1386F24A63085005737C6 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +188,9 @@
 			files = (
 				21EA1A6524177F72005C78B6 /* mask.swift in Sources */,
 				21EA1A4F24176E45005C78B6 /* AppDelegate.swift in Sources */,
+				215CECBC24A749A60073285C /* MaskDetailView.swift in Sources */,
 				21B3886D241FB87A005D2A3F /* MaskTableViewCell.swift in Sources */,
+				215CECBA24A731EA0073285C /* HospitalDetailViewController.swift in Sources */,
 				21B38871241FCEBE005D2A3F /* MaskVC.swift in Sources */,
 				21EA1A5124176E45005C78B6 /* SceneDelegate.swift in Sources */,
 			);
