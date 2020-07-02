@@ -23,7 +23,7 @@ This is my studied about swift.
 - 使用 Kiva API 取得貸款資料
 - 使用 Codable 來解碼 JSON
 - 在表格視圖顯示貸款資料<br/>
-![KivaLoan](Resources/KivaLoan2.gif)
+![KivaLoan](Resources/KivaLoan.gif)
 <br/><br/>
 ## 05 - SocialSharing
 整合 Facebook 與 Twitter 所提供的 SDK，使使用者可以在 App 中推文到 Twitter 或刊登到 Facebook 上，實作分享功能。<br/>
