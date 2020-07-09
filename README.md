@@ -203,5 +203,5 @@ Cell 尺寸自適應與動態型態
 - GitHub API
 - MVVM architecture
 - Rest API - Fetch data from the server.
-- Display cell shadow and spacing between cell by UIView.
+- Display cell shadow and spacing between cell by UIView.<br/>
 ![GitHubUser](Resources/GitHubUser.gif)
