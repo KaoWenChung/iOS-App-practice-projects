@@ -46,20 +46,19 @@ class NewsTableViewController: UITableViewController {
         // Configure the cell...
         if indexPath.row == 0 {
             cell.postImageView.image = UIImage(named: "watchkit-intro")
-            cell.postTitleLabel.text = "WatchKit Introduction: Building a Simple Guess Game"
-            cell.authorLabel.text = "Simon Ng"
+            cell.postTitleLabel.text = "高飛 (迪士尼角色)"
+            cell.authorLabel.text = "Goofy"
             cell.authorImageView.image = UIImage(named: "author")
             
         } else if indexPath.row == 1 {
             cell.postImageView.image = UIImage(named: "custom-segue-featured-1024")
-            cell.postTitleLabel.text = "Building a Chat App in Swift Using Multipeer Connectivity Framework"
+            cell.postTitleLabel.text = "是迪士尼經典動畫人物之一，首次出現於1932年5月25日米奇老鼠卡通片《米奇的時事諷刺劇》（Mickey's Revue） 一片中扮演觀眾角色"
             cell.authorLabel.text = "Gabriel Theodoropoulos"
             cell.authorImageView.image = UIImage(named: "appcoda-fav-logo")
             
         } else {
             cell.postImageView.image = UIImage(named: "webkit-featured")
-            cell.postTitleLabel.text = "A Beginner’s Guide to Animated Custom Segues in iOS 8"
-            cell.authorLabel.text = "Gabriel Theodoropoulos"
+            cell.postTitleLabel.text = "當時名叫迪皮·道格（英語：Dippy Dawg），片中他發出的刺耳笑聲令牠在觀眾中顯得有點鶴立雞群。高飛是一隻心地善良但腦袋瓜不大靈活的狗"
             cell.authorImageView.image = UIImage(named: "appcoda-fav-logo")
             
         }

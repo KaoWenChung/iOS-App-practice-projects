@@ -1,21 +1,19 @@
 //
-//  SlideDownTransitionAnimator.swift
+//  RotateTransitionAnimator.swift
 //  NavTransition
 //
-//  Created by wyn on 2020/5/17.
+//  Created by wyn on 2020/11/15.
 //  Copyright © 2020 AppCoda. All rights reserved.
 //
 
 import UIKit
 
-class SlideDownTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate  {
+class RotateTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate {
     
     let duration = 0.5
-    
     var isPresenting = false
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        
         return duration
     }
     
@@ -33,30 +31,37 @@ class SlideDownTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioni
         // Set up the transform we'll use in the animation
         let container = transitionContext.containerView
         
-        let offScreenUp = CGAffineTransform(translationX: 0, y: -container.frame.height)
-        let offScreenDown = CGAffineTransform(translationX: 0, y: container.frame.height)
+        // Set up the transform for rotation
+        // The angle is in radian. To convert from degree to radian, use this formula
+        // radian = angle * pi / 180
+        let rotateOut = CGAffineTransform(rotationAngle: -90 * CGFloat.pi / 180)
         
-        // Make the toView off screen
-        if isPresenting {
-            toView.transform = offScreenUp
-        }
+        // Change the anchor point and position
+        toView.layer.anchorPoint = CGPoint(x:0, y:0)
+        fromView.layer.anchorPoint = CGPoint(x:0, y:0)
+        toView.layer.position = CGPoint(x:0, y:0)
+        fromView.layer.position = CGPoint(x:0, y:0)
+        
+        // Change the initial position of the toView
+        toView.transform = rotateOut
         
         // Add both views to the container view
-        container.addSubview(fromView)
         container.addSubview(toView)
+        container.addSubview(fromView)
         
         // Perform the animation
         UIView.animate(withDuration: duration, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.8, options: [], animations: {
             
             if self.isPresenting {
-                fromView.transform = offScreenDown
-                fromView.alpha = 0.5
-                toView.transform = CGAffineTransform.identity
-            } else {
-                fromView.transform = offScreenUp
-                fromView.alpha = 1.0
+                fromView.transform = rotateOut
+                fromView.alpha = 0
                 toView.transform = CGAffineTransform.identity
                 toView.alpha = 1.0
+            } else {
+                fromView.alpha = 0
+                fromView.transform = rotateOut
+                toView.alpha = 1.0
+                toView.transform = CGAffineTransform.identity
             }
             
         }, completion: { finished in

@@ -8,12 +8,19 @@
 
 import UIKit
 
+import UIKit
+
 class MenuViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
-    let slideDownTransition = SlideDownTransitionAnimator()
+
     var transitionImages = ["Doodle Icons-41", "Doodle Icons-42", "Doodle Icons-43", "Doodle Icons-44"]
     var transitions = ["Slide Down", "Slide Right", "Pop", "Rotate"]
     
     @IBOutlet var collectionView:UICollectionView!
+    
+    let slideDownTransition = SlideDownTransitionAnimator()
+    let slideRightTransition = SlideRightTransitionAnimator()
+    let popTransition = PopTransitionAnimator()
+    let rotateTransition = RotateTransitionAnimator()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,13 +63,21 @@ class MenuViewController: UIViewController, UICollectionViewDataSource, UICollec
         collectionView.reloadData()
     }
 
+    // MARK: - Navigation
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let toViewController = segue.destination
         let sourceViewController = segue.source as! MenuViewController
         
+        toViewController.modalPresentationStyle = .fullScreen
+        sourceViewController.modalPresentationStyle = .fullScreen
+        
         if let selectedIndexPaths = sourceViewController.collectionView.indexPathsForSelectedItems {
             switch selectedIndexPaths[0].row {
             case 0: toViewController.transitioningDelegate = slideDownTransition
+            case 1: toViewController.transitioningDelegate = slideRightTransition
+            case 2: toViewController.transitioningDelegate = popTransition
+            case 3: toViewController.transitioningDelegate = rotateTransition
             default: break
             }
         }

@@ -1,21 +1,19 @@
 //
-//  SlideDownTransitionAnimator.swift
+//  PopTransitionAnimator.swift
 //  NavTransition
 //
-//  Created by wyn on 2020/5/17.
+//  Created by wyn on 2020/11/15.
 //  Copyright © 2020 AppCoda. All rights reserved.
 //
 
 import UIKit
 
-class SlideDownTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate  {
+class PopTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate {
     
     let duration = 0.5
-    
     var isPresenting = false
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        
         return duration
     }
     
@@ -33,30 +31,34 @@ class SlideDownTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioni
         // Set up the transform we'll use in the animation
         let container = transitionContext.containerView
         
-        let offScreenUp = CGAffineTransform(translationX: 0, y: -container.frame.height)
+        let minimize = CGAffineTransform(scaleX: 0, y: 0)
         let offScreenDown = CGAffineTransform(translationX: 0, y: container.frame.height)
+        let shiftDown = CGAffineTransform(translationX: 0, y: 15)
+        let scaleDown = shiftDown.scaledBy(x: 0.95, y: 0.95)
         
-        // Make the toView off screen
-        if isPresenting {
-            toView.transform = offScreenUp
-        }
+        // Change the initial size of the toView
+        toView.transform = minimize
         
         // Add both views to the container view
-        container.addSubview(fromView)
-        container.addSubview(toView)
+        if isPresenting {
+            container.addSubview(fromView)
+            container.addSubview(toView)
+        } else {
+            container.addSubview(toView)
+            container.addSubview(fromView)
+        }
         
         // Perform the animation
         UIView.animate(withDuration: duration, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.8, options: [], animations: {
             
             if self.isPresenting {
-                fromView.transform = offScreenDown
+                fromView.transform = scaleDown
                 fromView.alpha = 0.5
                 toView.transform = CGAffineTransform.identity
             } else {
-                fromView.transform = offScreenUp
-                fromView.alpha = 1.0
-                toView.transform = CGAffineTransform.identity
+                fromView.transform = offScreenDown
                 toView.alpha = 1.0
+                toView.transform = CGAffineTransform.identity
             }
             
         }, completion: { finished in
@@ -79,3 +81,4 @@ class SlideDownTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioni
     }
     
 }
+

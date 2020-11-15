@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UQj-cW-huv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UQj-cW-huv">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -42,7 +42,7 @@
                                                         <constraint firstAttribute="height" constant="21" id="zAj-Mn-dtH"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" systemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
@@ -74,6 +74,7 @@
                                 </connections>
                             </collectionView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="FWm-qV-Gbq"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="FWm-qV-Gbq" firstAttribute="trailing" secondItem="4du-TG-CTB" secondAttribute="trailing" id="0IK-aE-f9K"/>
@@ -81,7 +82,6 @@
                             <constraint firstItem="4du-TG-CTB" firstAttribute="top" secondItem="wu4-he-JbR" secondAttribute="top" id="fwX-Ia-ape"/>
                             <constraint firstItem="4du-TG-CTB" firstAttribute="bottom" secondItem="FWm-qV-Gbq" secondAttribute="bottom" id="oKY-qG-y0o"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="FWm-qV-Gbq"/>
                     </view>
                     <navigationItem key="navigationItem" title="Transitions" id="YIM-V0-qdd"/>
                     <connections>
@@ -111,19 +111,19 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beginner iOS 11 Programming with Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="wna-2Q-S5e">
-                                <rect key="frame" x="26" y="299" width="319.5" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="高飛（英語：Goofy）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="wna-2Q-S5e">
+                                <rect key="frame" x="104" y="299" width="167" height="24"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn how to build a real app from scratch to App Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="XvD-T8-ffy">
-                                <rect key="frame" x="39.5" y="326" width="293" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="此英文單字「愚蠢的，傻傻的」意思" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="XvD-T8-ffy">
+                                <rect key="frame" x="91.5" y="326" width="192" height="17"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRn-IY-nf5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRn-IY-nf5">
                                 <rect key="frame" x="16" y="10" width="18" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="18" id="QE3-WS-b22"/>
@@ -138,16 +138,16 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJk-ES-gTe">
-                                <rect key="frame" x="16" y="345.5" width="343" height="210.5"/>
-                                <string key="text">If you want to create an app but don't know where to begin, this book covers the whole aspect of Swift programming and iOS 11 development and shows you every step from an idea to a real app on App Store. Most programming books start by teaching the fundamental programming concepts. At AppCoda, we believe programming should be fun to learn. Instead of just elaborating the theories, you'll learn 'by doing' right from the beginning. This practical learning approach has gained positive feedback from tens of thousands of our blog readers.</string>
+                                <rect key="frame" x="16" y="345.5" width="343" height="249"/>
+                                <string key="text">是迪士尼經典動畫人物之一，首次出現於1932年5月25日米奇老鼠卡通片《米奇的時事諷刺劇》（Mickey's Revue） 一片中扮演觀眾角色，當時名叫迪皮·道格（英語：Dippy Dawg），片中他發出的刺耳笑聲令牠在觀眾中顯得有點鶴立雞群。高飛是一隻心地善良但腦袋瓜不大靈活的狗，他是作為布魯托的對比物出現的。在1992年的「高飛家族」動畫影集中，他有個兒子叫做麥斯·高飛（英語：Max Goof），而妻子早就去世，也有皮特與其家族作為他的鄰居。在米奇和朋友們迎解日常生活中問題的時候，高飛經常能起到喜劇調節劑的效果。現在他的本名是高飛·高孚（Goofy Goof）。而中華民國於90年代至00年代期間，擔任高飛的中文配音員為陳明陽。</string>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="sKk-D0-Mg5"/>
                         <color key="backgroundColor" red="0.9213708639" green="0.93650907279999995" blue="0.93609136339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="wna-2Q-S5e" secondAttribute="trailing" constant="10" id="Eqt-CT-fIr"/>
                             <constraint firstItem="MJk-ES-gTe" firstAttribute="top" secondItem="XvD-T8-ffy" secondAttribute="bottom" constant="2.5" id="F5N-oa-aPZ"/>
                             <constraint firstItem="MJk-ES-gTe" firstAttribute="leading" secondItem="n0E-1o-Bqt" secondAttribute="leadingMargin" id="Qr8-DJ-tTT"/>
                             <constraint firstItem="XvD-T8-ffy" firstAttribute="top" secondItem="wna-2Q-S5e" secondAttribute="bottom" constant="3" id="TCr-Gz-aMD"/>
@@ -155,19 +155,18 @@
                             <constraint firstItem="9vK-2v-G7l" firstAttribute="top" secondItem="n0E-1o-Bqt" secondAttribute="top" id="X9B-Yi-uYh"/>
                             <constraint firstItem="XvD-T8-ffy" firstAttribute="centerX" secondItem="wna-2Q-S5e" secondAttribute="centerX" id="ZLj-na-fkE"/>
                             <constraint firstItem="sKk-D0-Mg5" firstAttribute="trailing" secondItem="9vK-2v-G7l" secondAttribute="trailing" id="aMT-U1-bez"/>
-                            <constraint firstItem="wna-2Q-S5e" firstAttribute="leading" secondItem="n0E-1o-Bqt" secondAttribute="leadingMargin" constant="10" id="cqT-NM-ude"/>
                             <constraint firstItem="KRn-IY-nf5" firstAttribute="leading" secondItem="sKk-D0-Mg5" secondAttribute="leading" constant="16" id="oYd-Hb-Avd"/>
                             <constraint firstItem="9vK-2v-G7l" firstAttribute="leading" secondItem="sKk-D0-Mg5" secondAttribute="leading" id="pjf-RW-cHp"/>
                             <constraint firstItem="9vK-2v-G7l" firstAttribute="height" secondItem="n0E-1o-Bqt" secondAttribute="height" multiplier="0.45" id="q72-mW-4W2"/>
+                            <constraint firstItem="wna-2Q-S5e" firstAttribute="centerX" secondItem="n0E-1o-Bqt" secondAttribute="centerX" id="qgw-Nt-qTH"/>
                             <constraint firstItem="wna-2Q-S5e" firstAttribute="top" secondItem="9vK-2v-G7l" secondAttribute="bottom" constant="8" id="w1d-az-iYR"/>
                             <constraint firstItem="KRn-IY-nf5" firstAttribute="top" secondItem="sKk-D0-Mg5" secondAttribute="top" constant="10" id="wZd-ah-xdn"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="sKk-D0-Mg5"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wdT-4x-3Y0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1676" y="22"/>
+            <point key="canvasLocation" x="1676" y="21.139430284857571"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6im-yf-A12">
@@ -189,7 +188,19 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Basic Sample_2x" width="2048" height="1387"/>
+        <image name="Basic Sample_2x" width="1280" height="853"/>
         <image name="cross37" width="512" height="512"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

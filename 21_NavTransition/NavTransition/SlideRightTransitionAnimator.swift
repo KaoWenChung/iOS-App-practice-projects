@@ -1,21 +1,19 @@
 //
-//  SlideDownTransitionAnimator.swift
+//  SlideRightTransitionAnimator.swift
 //  NavTransition
 //
-//  Created by wyn on 2020/5/17.
+//  Created by wyn on 2020/11/15.
 //  Copyright © 2020 AppCoda. All rights reserved.
 //
 
 import UIKit
 
-class SlideDownTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate  {
+class SlideRightTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate {
     
     let duration = 0.5
-    
     var isPresenting = false
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        
         return duration
     }
     
@@ -33,30 +31,29 @@ class SlideDownTransitionAnimator: NSObject, UIViewControllerAnimatedTransitioni
         // Set up the transform we'll use in the animation
         let container = transitionContext.containerView
         
-        let offScreenUp = CGAffineTransform(translationX: 0, y: -container.frame.height)
-        let offScreenDown = CGAffineTransform(translationX: 0, y: container.frame.height)
+        let offScreenLeft = CGAffineTransform(translationX: -container.frame.width, y: 0)
         
         // Make the toView off screen
         if isPresenting {
-            toView.transform = offScreenUp
+            toView.transform = offScreenLeft
         }
         
         // Add both views to the container view
-        container.addSubview(fromView)
-        container.addSubview(toView)
+        if isPresenting {
+            container.addSubview(fromView)
+            container.addSubview(toView)
+        } else {
+            container.addSubview(toView)
+            container.addSubview(fromView)
+        }
         
         // Perform the animation
         UIView.animate(withDuration: duration, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.8, options: [], animations: {
             
             if self.isPresenting {
-                fromView.transform = offScreenDown
-                fromView.alpha = 0.5
                 toView.transform = CGAffineTransform.identity
             } else {
-                fromView.transform = offScreenUp
-                fromView.alpha = 1.0
-                toView.transform = CGAffineTransform.identity
-                toView.alpha = 1.0
+                fromView.transform = offScreenLeft
             }
             
         }, completion: { finished in
