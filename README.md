@@ -63,9 +63,11 @@ This is my studied about swift.
 - 使用手勢辨識器來偵測滑動（swipe）手勢
 - 為相機 App 加入縮放功能
 - 儲存圖片至照片膠卷
+![SampleCamera](Resources/SampleCamera.gif)
 <br/><br/>
 ## 13 - SimpleVideoCamera
 使用 AVFoundation framework 錄製影片並用 AVKit 播放影音檔。
+![SimpleVideoCamera](Resources/SimpleVideoCamera.gif)
 <br/><br/>
 ## 14 - GoogleAd
 使用 CocoaPods 安裝 Google Mobile Ads SDK 製作表格視圖標題顯示橫幅廣告與播放插播廣告。
@@ -75,18 +77,22 @@ This is my studied about swift.
 <br/><br/>
 ## 16 - AirDrop
 建立 UIActivityViewController 的實例，透過 AirDrop 來分享圖片與檔案。
+![AirDrop](Resources/AirDrop.gif)
 <br/><br/>
 ## 17 - CollectionView
-使用 UICollectionView 製作一個簡單的商品清單。
+使用 UICollectionView 製作一個簡單且具有畫面自適應的商品清單。
+![CollectionView](Resources/CollectionView.gif)
 <br/><br/>
 ## 18 - DoodleFun
 延續上一章，新增互動功能
 - 當使用者按下圖示時，這個 App 會帶出一個強制回應（Modal）視圖，並將圖示以較大的尺寸來顯示。
 - 新增複選動作，實作分享功能。使用者可以選擇多張圖示，並使用動態視圖控制器來進行分享。
 - 加入 Cell 為自適應式，集合視圖 Cell 的大小會依照裝置類型及其方向做調整。
+![DoodleFun](Resources/DoodleFun.gif)
 <br/><br/>
 ## 19 - Weather
 用 Widget 外掛顯示的 App 的最新天氣資訊。
+![Weather](Resources/Weather.gif)
 <br/><br/>
 ## 20 - SlideBar
 採用 John Lluch 的[SWRevealViewController](https://github.com/John-Lluch/SWRevealViewController)函式庫實作一個滑動式的漢堡選單。
@@ -94,12 +100,15 @@ This is my studied about swift.
 - 使用者亦可以手指向內容區右邊滑動來帶出選單
 - 選單出現後，使用者可以再次按下左上角的選單按鈕關掉它
 - 使用者亦可在內容區上，往左拖曳來關掉選單
+![SlideBar](Resources/SlideBar.gif)
 <br/><br/>
 ## 21 - NavTransition
 實作視圖控制器轉場以及動畫。
+![NavTransition](Resources/NavTransition.gif)
 <br/><br/>
 ## 22 - SliderDownMenu
 實作一個下拉式的選單以及動畫。
+![SliderDownMenu](Resources/SliderDownMenu.gif)
 <br/><br/>
 ## 23 - SelfSizingCell
 Cell 尺寸自適應與動態型態
@@ -112,12 +121,14 @@ Cell 尺寸自適應與動態型態
 <br/><br/>
 ## 25 - VisualEffect
 使用 UIVisualEffect 來產生模糊背景。
+![VisualEffect](Resources/VisualEffect.gif)
 <br/><br/>
 ## 26 - TouchID
 使用 Local Authentication framework 實行使用 Touch ID 與 Face ID 驗證。
 <br/><br/>
 ## 27 - TripCard
 建構一個似轉盤的使用者介面顯示旅遊的列表應用。
+![TripCard](Resources/TripCard.gif)
 <br/><br/>
 ## 28 - Parse
 使用 CocoaPods 安裝 Parse ，並使用第三方後端服務供應商[Back4App](https://www.back4app.com/)進行資料管理，將 TripCard 的資料改為線上資料庫，新增以下功能。
