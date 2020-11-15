@@ -50,7 +50,7 @@ This is my studied about swift.
 ![LocalSearch](Resources/MapKit2.gif)
 <br/><br/>
 ## 10 - Record  [Blog](https://medium.com/@k022298/create-an-audio-recorder-in-xcode-30adaec2e1d7)
-使用 AVFoundation framework 的 AVAudioRecorder 與 AVAudioPlayer 製作一個錄音加播放的APP。
+使用 AVFoundation framework 的 AVAudioRecorder 與 AVAudioPlayer 製作一個錄音加播放的APP。<br/>
 ![Record](Resources/Record.gif)
 <br/><br/>
 ## 11 - QRCodeReader
@@ -62,11 +62,11 @@ This is my studied about swift.
 - 使用前鏡頭與後鏡頭相機來擷取靜態圖像
 - 使用手勢辨識器來偵測滑動（swipe）手勢
 - 為相機 App 加入縮放功能
-- 儲存圖片至照片膠卷
+- 儲存圖片至照片膠卷<br/>
 ![SampleCamera](Resources/SampleCamera.gif)
 <br/><br/>
 ## 13 - SimpleVideoCamera
-使用 AVFoundation framework 錄製影片並用 AVKit 播放影音檔。
+使用 AVFoundation framework 錄製影片並用 AVKit 播放影音檔。<br/>
 ![SimpleVideoCamera](Resources/SimpleVideoCamera.gif)
 <br/><br/>
 ## 14 - GoogleAd
@@ -76,22 +76,22 @@ This is my studied about swift.
 使用程式自訂字型
 <br/><br/>
 ## 16 - AirDrop
-建立 UIActivityViewController 的實例，透過 AirDrop 來分享圖片與檔案。
-![AirDrop](Resources/AirDrop.gif)
+建立 UIActivityViewController 的實例，透過 AirDrop 來分享圖片與檔案。<br/>
+![AirDrop](Resources/Airdrop.gif)
 <br/><br/>
 ## 17 - CollectionView
-使用 UICollectionView 製作一個簡單且具有畫面自適應的商品清單。
-![CollectionView](Resources/CollectionView.gif)
+使用 UICollectionView 製作一個簡單且具有畫面自適應的商品清單。<br/>
+![CollectionView](Resources/CollectionViewDemo.gif)
 <br/><br/>
 ## 18 - DoodleFun
 延續上一章，新增互動功能
 - 當使用者按下圖示時，這個 App 會帶出一個強制回應（Modal）視圖，並將圖示以較大的尺寸來顯示。
 - 新增複選動作，實作分享功能。使用者可以選擇多張圖示，並使用動態視圖控制器來進行分享。
-- 加入 Cell 為自適應式，集合視圖 Cell 的大小會依照裝置類型及其方向做調整。
+- 加入 Cell 為自適應式，集合視圖 Cell 的大小會依照裝置類型及其方向做調整。<br/>
 ![DoodleFun](Resources/DoodleFun.gif)
 <br/><br/>
 ## 19 - Weather
-用 Widget 外掛顯示的 App 的最新天氣資訊。
+用 Widget 外掛顯示的 App 的最新天氣資訊。<br/>
 ![Weather](Resources/Weather.gif)
 <br/><br/>
 ## 20 - SlideBar
@@ -99,15 +99,15 @@ This is my studied about swift.
 - 使用者按下了導覽列上左上角的選單按鈕後，觸發了選單
 - 使用者亦可以手指向內容區右邊滑動來帶出選單
 - 選單出現後，使用者可以再次按下左上角的選單按鈕關掉它
-- 使用者亦可在內容區上，往左拖曳來關掉選單
+- 使用者亦可在內容區上，往左拖曳來關掉選單<br/>
 ![SlideBar](Resources/SlideBar.gif)
 <br/><br/>
 ## 21 - NavTransition
-實作視圖控制器轉場以及動畫。
+實作視圖控制器轉場以及動畫。<br/>
 ![NavTransition](Resources/NavTransition.gif)
 <br/><br/>
 ## 22 - SliderDownMenu
-實作一個下拉式的選單以及動畫。
+實作一個下拉式的選單以及動畫。<br/>
 ![SliderDownMenu](Resources/SliderDownMenu.gif)
 <br/><br/>
 ## 23 - SelfSizingCell
@@ -120,14 +120,14 @@ Cell 尺寸自適應與動態型態
 使用 XMLParser 解析讀取 XML 檔 製作一個 RSS 閱讀器應用，與製作表格視圖 Cell 的展開。
 <br/><br/>
 ## 25 - VisualEffect
-使用 UIVisualEffect 來產生模糊背景。
+使用 UIVisualEffect 來產生模糊背景。<br/>
 ![VisualEffect](Resources/VisualEffect.gif)
 <br/><br/>
 ## 26 - TouchID
 使用 Local Authentication framework 實行使用 Touch ID 與 Face ID 驗證。
 <br/><br/>
 ## 27 - TripCard
-建構一個似轉盤的使用者介面顯示旅遊的列表應用。
+建構一個似轉盤的使用者介面顯示旅遊的列表應用。<br/>
 ![TripCard](Resources/TripCard.gif)
 <br/><br/>
 ## 28 - Parse
