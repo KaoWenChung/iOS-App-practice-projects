@@ -16,12 +16,11 @@ class MaskDetailView: UIView {
     @IBOutlet var childLabel: UILabel!
     @IBOutlet var telLabel: UILabel!
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    func initView(mask: Mask) {
+        nameLabel.text = mask.name
+        adultLabel.text = mask.adultCount.description
+        childLabel.text = mask.childCount.description
+        addressLabel.text = mask.address
+        telLabel.text = mask.tel
     }
-    */
-
 }

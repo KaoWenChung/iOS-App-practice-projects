@@ -25,7 +25,4 @@ class MaskTableViewCell: UITableViewCell {
         childLabel.text = "Child:\(mask.childCount)"
         timeLabel.text = "\(mask.time)"
     }
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
 }
