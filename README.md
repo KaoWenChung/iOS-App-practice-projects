@@ -23,9 +23,9 @@ Showed a list of items on tableView with the indexed.
 ## 03 - TableCellAnimation
 Implemented animation effects on UITableView cells.
 - CATransform3D
-- CATransform3DTranslate
-<br/>
+- CATransform3DTranslate<br/>
 ![TableCellAnimation](Resources/TableCellAnimation2.gif)
+<br/><br/>
 
 ## 04 - KivaLoan
 Called [Kiva.org](https://www.kiva.org/) API to fetch JSON data and show on the UITableView.
