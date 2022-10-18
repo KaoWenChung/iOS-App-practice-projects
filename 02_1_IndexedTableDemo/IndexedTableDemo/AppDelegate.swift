@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  IndexedTableDemo
 //
-//  Created by Simon Ng on 3/10/2016.
-//  Copyright © 2016 AppCoda. All rights reserved.
+//  Created by wyn on 2020/4/26.
+//  Copyright © 2020 Wyn. All rights reserved.
 //
 
 import UIKit

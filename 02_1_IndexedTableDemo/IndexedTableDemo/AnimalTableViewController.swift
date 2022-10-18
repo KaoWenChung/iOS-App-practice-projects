@@ -2,36 +2,23 @@
 //  AnimalTableViewController.swift
 //  IndexedTableDemo
 //
-//  Created by Simon Ng on 3/10/2016.
-//  Copyright © 2016 AppCoda. All rights reserved.
+//  Created by wyn on 2020/4/26.
+//  Copyright © 2020 Wyn. All rights reserved.
 //
 
 import UIKit
 
-class AnimalTableViewController: UITableViewController {
+final class AnimalTableViewController: UITableViewController {
     
-    let animals = ["Bear", "Black Swan", "Buffalo", "Camel", "Cockatoo", "Dog", "Donkey", "Emu", "Giraffe", "Greater Rhea", "Hippopotamus", "Horse", "Koala", "Lion", "Llama", "Manatus", "Meerkat", "Panda", "Peacock", "Pig", "Platypus", "Polar Bear", "Rhinoceros", "Seagull", "Tasmania Devil", "Whale", "Whale Shark", "Wombat"]
+    let animals: [String] = ["Bear", "Black Swan", "Buffalo", "Camel", "Cockatoo", "Dog", "Donkey", "Emu", "Giraffe", "Greater Rhea", "Hippopotamus", "Horse", "Koala", "Lion", "Llama", "Manatus", "Meerkat", "Panda", "Peacock", "Pig", "Platypus", "Polar Bear", "Rhinoceros", "Seagull", "Tasmania Devil", "Whale", "Whale Shark", "Wombat"]
     
-    var animalsDict = [String: [String]]()
-    var animalSectionTitles = [String]()
-    let animalIndexTitles = ["A", "B", "C","D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+    private var animalsDict: [String: [String]] = [:]
+    private var animalSectionTitles: [String] = []
+    private let animalIndexTitles: [String] = ["A", "B", "C","D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Create animals dict
         createAnimalDict()
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     // MARK: - Table view data source
@@ -76,25 +63,12 @@ class AnimalTableViewController: UITableViewController {
     func createAnimalDict() {
         for animal in animals {
             
-            // Get the first alphabet in an animal name and create a dict
-//            let firstLetterIndex = animal.index(animal.startIndex, offsetBy: 1)
-//            let b = String(animal[..<firstLetterIndex])
-            
             let firstLetter = String(animal.prefix(1))
-            print(animalsDict)
             if var animalValues = animalsDict[firstLetter] {
-                print("in if")
-                print(animalsDict)
                 animalValues.append(animal)
                 animalsDict[firstLetter] = animalValues
-                print("in end if")
-                print(animalsDict)
             } else {
-                print("in else")
-                print(animalsDict)
                 animalsDict[firstLetter] = [animal]
-                print("in end else")
-                print(animalsDict)
             }
             
             // Get key from dict and sort by section title
