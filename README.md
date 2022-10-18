@@ -24,6 +24,7 @@ Showed a list of items on tableView with the indexed.
 Implemented animation effects on UITableView cells.
 - CATransform3D
 - CATransform3DTranslate
+<br/>
 ![TableCellAnimation](Resources/TableCellAnimation2.gif)
 
 ## 04 - KivaLoan
@@ -31,6 +32,7 @@ Called [Kiva.org](https://www.kiva.org/) API to fetch JSON data and show on the 
 - Created Codable JSON model
 - Fetched JSON data from Kiva API
 - Showed data on table view
+<br/>
 ![KivaLoan](Resources/KivaLoan.gif)
 <br/><br/>
 
