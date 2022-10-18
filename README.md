@@ -1,20 +1,21 @@
 # iOS-App-practice-projects
-This is my studied about swift.
+It's a repository for me to practice iOS app development via books and online courses.<br/>
+Including iOS SDK features and third-library framework API integration.<br/>
 Resources:
 - [AppCoda](https://www.appcoda.com/)
 - [Udacity](https://classroom.udacity.com/courses/ud585)
 - [raywenderlich](https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app/lessons/1)
+- [彼得潘的文章](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E5%95%8F%E9%A1%8C%E8%A7%A3%E7%AD%94%E9%9B%86/%E7%94%A8-jsondecoder-%E8%A7%A3%E6%9E%90%E5%8F%A3%E7%BD%A9%E5%89%A9%E9%A4%98%E6%95%B8%E9%87%8F-api-a32e967ec9c1)
 ## 01 - AdaptiveUI
 Use Storyboard to implement the auto layout UI.<br/>
 It can be adapted to the landscape and portrait orientation on both iPhones and iPads.<br/>
 ![AdaptiveUI](Resources/AdaptiveUI.gif)
 <br/><br/>
-## 02 - IndexedTable  [Blog](https://medium.com/@k022298/add-an-index-in-tableview-feeb919f82ab)
+## 02 - IndexedTable [Blog](https://medium.com/@k022298/add-an-index-in-tableview-feeb919f82ab)
 Show a list of on tableView with a IndexedTable.<br/>
 ![IndexedTable](Resources/IndexedTable.jpg)
 <br/><br/>
 ## 03 - TableCellAnimation
-加入動畫使表格動畫更加活潑
 Implemented animation effects on UITableView cells.
 - Implemented animation effects
 - CATransform3D
@@ -49,11 +50,13 @@ Sending SMS and MMS by MessageUI.<br/>
 ![MapKitDirection](Resources/MapKit.gif)
 <br/><br/>
 ## 09 - LocalSearch
-Show the similar places on map by MKLocalSearch API.<br/>
+Showing the similar places on map by MKLocalSearch API.<br/>
 ![LocalSearch](Resources/MapKit2.gif)
 <br/><br/>
 ## 10 - Record  [Blog](https://medium.com/@k022298/create-an-audio-recorder-in-xcode-30adaec2e1d7)
-使用 AVFoundation framework 的 AVAudioRecorder 與 AVAudioPlayer 製作一個錄音加播放的APP。<br/>
+It's an app for user to record and play their sound.
+- AVAudioRecorder
+- AVAudioPlayer<br/>
 ![Record](Resources/Record.gif)
 <br/><br/>
 ## 11 - QRCodeReader
@@ -120,7 +123,7 @@ Cell 尺寸自適應與動態型態
 - 設定表格視圖的 rowHeight 屬性為 UITableViewAutomaticDimension
 <br/><br/>
 ## 24 - SimpleRSSReader
-使用 XMLParser 解析讀取 XML 檔 製作一個 RSS 閱讀器應用，與製作表格視圖 Cell 的展開。
+User can read RSS 使用 XMLParser 解析讀取 XML 檔 製作一個 RSS 閱讀器應用，與製作表格視圖 Cell 的展開。
 <br/><br/>
 ## 25 - VisualEffect
 使用 UIVisualEffect 來產生模糊背景。<br/>
@@ -200,18 +203,17 @@ Cell 尺寸自適應與動態型態
 - 偵測一個水平面並將虛擬 3D 物件放進去
 <br/><br/>
 ## 39 - SwiftUI-Text
-使用SwiftUI做文字的處理。
+I practiced how to deal with text with SwiftUI.
 <br/><br/>
 ## 40 - Bullseye
-線上課程[raywenderlich](https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app/lessons/1)，使用 SwiftUI 做一個目測比例的Game。
+Reference: [raywenderlich](https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app/lessons/1)，It's a game app implemented with SwiftUI.
 <br/><br/>
 ## 41 - PitchPerfect
-線上課程[Udacity](https://classroom.udacity.com/courses/ud585)，製作一個變音應用。
+Reference: [Udacity](https://classroom.udacity.com/courses/ud585)，It's an app that can record/ change/ play users' voices.
 <br/><br/>
 ## 42 - MaskMap
-參考[彼得潘的文章](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E5%95%8F%E9%A1%8C%E8%A7%A3%E7%AD%94%E9%9B%86/%E7%94%A8-jsondecoder-%E8%A7%A3%E6%9E%90%E5%8F%A3%E7%BD%A9%E5%89%A9%E9%A4%98%E6%95%B8%E9%87%8F-api-a32e967ec9c1)串接[政府資料開放平臺 API](https://data.gov.tw/dataset/116285) 將診所口罩庫存呈現在表格試圖上。
-- 使用 Postman 測試口罩剩餘數量 API 回傳的 JSON 資料
-- 利用 JSONDecoder 解析口罩 API 的 JSON 資料<br/>
+Reference: [彼得潘的文章](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E5%95%8F%E9%A1%8C%E8%A7%A3%E7%AD%94%E9%9B%86/%E7%94%A8-jsondecoder-%E8%A7%A3%E6%9E%90%E5%8F%A3%E7%BD%A9%E5%89%A9%E9%A4%98%E6%95%B8%E9%87%8F-api-a32e967ec9c1)
+[API](https://data.gov.tw/dataset/116285) It's an app that can show the number of masks within the stores on the table view.
 ![MaskMap](Resources/MaskMap.gif)
 <br/><br/>
 ## 43 - GitHubUser
