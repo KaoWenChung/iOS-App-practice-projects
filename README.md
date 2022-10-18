@@ -1,52 +1,55 @@
-# Swift-Learning
+# iOS-App-practice-projects
 This is my studied about swift.
-
+Resources:
+- [AppCoda](https://www.appcoda.com/)
+- [Udacity](https://classroom.udacity.com/courses/ud585)
+- [raywenderlich](https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app/lessons/1)
 ## 01 - AdaptiveUI
-未撰寫程式碼。主要使用 Storyboard 來進行使用者介面元件的佈局，使用 Auto Layout 以及尺寸類別來讓 UI 可以自適應。
-建立一個具有單一視圖控制器（view controller），可以適應多種螢幕尺寸以及方向的 App。
+Use Storyboard to implement the auto layout UI.<br/>
+It can be adapted to the landscape and portrait orientation on both iPhones and iPads.<br/>
 ![AdaptiveUI](Resources/AdaptiveUI.gif)
 <br/><br/>
 ## 02 - IndexedTable  [Blog](https://medium.com/@k022298/add-an-index-in-tableview-feeb919f82ab)
-在表格視圖中顯示一系列的動物清單。除了列出所有動物外，這個 App 將動物群組起來至不同區塊，並顯示一個可以快速存取的索引列表。<br/>
+Show a list of on tableView with a IndexedTable.<br/>
 ![IndexedTable](Resources/IndexedTable.jpg)
 <br/><br/>
 ## 03 - TableCellAnimation
 加入動畫使表格動畫更加活潑
-- 淡入動畫
-- 使用 CATransform3D 建立旋轉特效
-- 使用 CATransform3DTranslate 建立飛入特效<br/>
+Implemented animation effects on UITableView cells.
+- Implemented animation effects
+- CATransform3D
+- CATransform3DTranslate <br/>
 ![TableCellAnimation](Resources/TableCellAnimation2.gif)
 <br/><br/>
 ## 04 - KivaLoan
-使用 [Kiva.org](https://www.kiva.org/) 的 JSON API來取得最近的融資貸款。
-- 建立 JSON 資料模型
-- 使用 Kiva API 取得貸款資料
-- 使用 Codable 來解碼 JSON
-- 在表格視圖顯示貸款資料<br/>
+Called [Kiva.org](https://www.kiva.org/) API to fetch JSON data and show on the table view.
+- Created Codable JSON model
+- Fetched JSON data from Kiva API
+- Show data on table view<br/>
 ![KivaLoan](Resources/KivaLoan.gif)
 <br/><br/>
-## 05 - SocialSharing
-整合 Facebook 與 Twitter 所提供的 SDK，使使用者可以在 App 中推文到 Twitter 或刊登到 Facebook 上，實作分享功能。<br/>
+## 05 - Social Sharing
+Integrated Facebook and Twitter SDK，Users can share content to Twitter or Facebook.<br/>
 ![SocialSharing](Resources/SocialSharing.gif)
 <br/><br/>
 ## 06 - EmailAttachment
-使用 MessageUI 這個內建 API 撰寫一個簡單的 App 來示範如何傳送 email 與如何加入 email 附加檔案。<br/>
+Implemented Implemented email attachment by MessageUI SDK.<br/>
 ![EmailAttachment](Resources/EmailAttachment.gif)
 <br/><br/>
 ## 07 - SMS
-使用 MessageUI 進行 SMS 與 MMS 傳送<br/>
+Sending SMS and MMS by MessageUI.<br/>
 ![SMS](Resources/SMS.gif)
 <br/><br/>
 ## 08 - MapKitDirection
-使用 MKDirections API
-- 取得目前使用者的位置
-- 計算路徑並將它畫在地圖上
-- 使用分段控制
-- 取得路徑步驟並顯示開車/步行路徑的導引<br/>
+- MKDirections API
+- Get user's location
+- Get target's location
+- Calculate the route and show on the map
+- Get the steps of route of by car and by walk<br/>
 ![MapKitDirection](Resources/MapKit.gif)
 <br/><br/>
 ## 09 - LocalSearch
-使用 MKLocalSearch API 實行在地圖上搜尋附近同性質的地點並顯示在地圖上。<br/>
+Show the similar places on map by MKLocalSearch API.<br/>
 ![LocalSearch](Resources/MapKit2.gif)
 <br/><br/>
 ## 10 - Record  [Blog](https://medium.com/@k022298/create-an-audio-recorder-in-xcode-30adaec2e1d7)
