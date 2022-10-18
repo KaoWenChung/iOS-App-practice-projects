@@ -9,14 +9,12 @@ Resources:
 
 ## 01 - AdaptiveUI
 Implemented the auto layout UI with storyboard.<br/>
-It can be adapted to the landscape and portrait orientation on both iPhones and iPads.
-<br/>
+It can be adapted to the landscape and portrait orientation on both iPhones and iPads.<br/>
 ![AdaptiveUI](Resources/AdaptiveUI.gif)
 <br/><br/>
 
 ## 02 - IndexedTable [Blog](https://medium.com/@k022298/add-an-index-in-tableview-feeb919f82ab)
-Showed a list of items on tableView with the indexed.
-<br/>
+Showed a list of items on tableView with the indexed.<br/>
 ![IndexedTable](Resources/IndexedTable.jpg)
 <br/><br/>
 
@@ -31,30 +29,25 @@ Implemented animation effects on UITableView cells.
 Called [Kiva.org](https://www.kiva.org/) API to fetch JSON data and show on the UITableView.
 - Created Codable JSON model
 - Fetched JSON data from Kiva API
-- Showed data on table view
-<br/>
+- Showed data on table view<br/>
 ![KivaLoan](Resources/KivaLoan.gif)
 <br/><br/>
 
 ## 05 - Social Sharing
 Integrated Facebook and Twitter SDK，Users can share content to Twitter or Facebook.
 - Twitter SDK
-- Facebook SDK
-<br/>
+- Facebook SDK<br/>
 ![SocialSharing](Resources/SocialSharing.gif)
 <br/><br/>
 
 ## 06 - EmailAttachment
-Implemented the feature of email attachment with MessageUI SDK.
-- MessageUI SDK
-<br/>
+Implemented the feature of email attachment with MessageUI SDK.- MessageUI SDK<br/>
 ![EmailAttachment](Resources/EmailAttachment.gif)
 <br/><br/>
 
 ## 07 - SMS
 Implemented the feature of sending SMS and MMS with MessageUI SDK.
-- MessageUI SDK
-<br/>
+- MessageUI SDK<br/>
 ![SMS](Resources/SMS.gif)
 <br/><br/>
 
@@ -63,28 +56,24 @@ Implemented the feature of sending SMS and MMS with MessageUI SDK.
 - Get user's location
 - Get target's location
 - Calculate the route and show on the map
-- Get the steps of route of by car and by walk
-<br/>
+- Get the steps of route of by car and by walk<br/>
 ![MapKitDirection](Resources/MapKit.gif)
 <br/><br/>
 
 ## 09 - LocalSearch
-Showing the similar places on map by MKLocalSearch API.
-<br/>
+Showing the similar places on map by MKLocalSearch API.<br/>
 ![LocalSearch](Resources/MapKit2.gif)
 <br/><br/>
 
 ## 10 - Record  [Blog](https://medium.com/@k022298/create-an-audio-recorder-in-xcode-30adaec2e1d7)
 It's an app for user to record and play their sound.
 - AVAudioRecorder
-- AVAudioPlayer
-<br/>
+- AVAudioPlayer<br/>
 ![Record](Resources/Record.gif)
 <br/><br/>
 
 ## 11 - QRCodeReader
-Implemented the feature of scan QR codes, launching and sending messages to other apps via URL Scheme.
-<br/>
+Implemented the feature of scan QR codes, launching and sending messages to other apps via URL Scheme.<br/>
 ![QRCodeReader](Resources/QRCodeReader.gif)
 <br/><br/>
 
@@ -94,34 +83,35 @@ Implemented a camera application.
 - take picture with front/ back camera
 - detect swipe gesture
 - zoom in/ out
-- save photos to album
-<br/>
+- save photos to album<br/>
 ![SampleCamera](Resources/SampleCamera.gif)
 <br/><br/>
 
 ## 13 - SimpleVideoCamera
 Implemented a video camera including record and playing video.
-<br/>
 - AVFoundation
-- AVKit
+- AVKit<br/>
 ![SimpleVideoCamera](Resources/SimpleVideoCamera.gif)
 <br/><br/>
 
 ## 14 - GoogleAd
-使用 CocoaPods 安裝 Google Mobile Ads SDK 製作表格視圖標題顯示橫幅廣告與播放插播廣告。
+Showed google advertisement on application.
+- Google Mobile Ads SDK
 <br/><br/>
 
 ## 15 - CustomFont
-使用程式自訂字型
+Implemented custom font style.
 <br/><br/>
 
 ## 16 - AirDrop
-建立 UIActivityViewController 的實例，透過 AirDrop 來分享圖片與檔案。<br/>
+Share photos and files via AirDrop.
+- UIActivityViewController<br/>
 ![AirDrop](Resources/Airdrop.gif)
 <br/><br/>
 
 ## 17 - CollectionView
-使用 UICollectionView 製作一個簡單且具有畫面自適應的商品清單。<br/>
+Implemented a auto layout cell on UICollectionView.
+- UICollectionView<br/>
 ![CollectionView](Resources/CollectionViewDemo.gif)
 <br/><br/>
 
