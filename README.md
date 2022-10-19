@@ -244,16 +244,19 @@ I practiced how to deal with text with SwiftUI.
 <br/><br/>
 
 ## 40 - Bullseye
-Reference: [raywenderlich](https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app/lessons/1)，It's a game app implemented with SwiftUI.
+Reference: [raywenderlich](https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app/lessons/1)<br/>
+It's a game app implemented with SwiftUI.
 <br/><br/>
 
 ## 41 - PitchPerfect
-Reference: [Udacity](https://classroom.udacity.com/courses/ud585)，It's an app that can record/ change/ play users' voices.
+Reference: [Udacity](https://classroom.udacity.com/courses/ud585)<br/>
+It's an app that can record/ change/ play users' voices.
 <br/><br/>
 
 ## 42 - MaskMap
-Reference: [彼得潘的文章](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E5%95%8F%E9%A1%8C%E8%A7%A3%E7%AD%94%E9%9B%86/%E7%94%A8-jsondecoder-%E8%A7%A3%E6%9E%90%E5%8F%A3%E7%BD%A9%E5%89%A9%E9%A4%98%E6%95%B8%E9%87%8F-api-a32e967ec9c1)
-[API](https://data.gov.tw/dataset/116285) It's an app that can show the number of masks within the stores on the table view.
+Reference: [彼得潘的文章](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E5%95%8F%E9%A1%8C%E8%A7%A3%E7%AD%94%E9%9B%86/%E7%94%A8-jsondecoder-%E8%A7%A3%E6%9E%90%E5%8F%A3%E7%BD%A9%E5%89%A9%E9%A4%98%E6%95%B8%E9%87%8F-api-a32e967ec9c1)<br/>
+[API](https://data.gov.tw/dataset/116285)<br/>
+It's an app that can show the number of masks within the stores on the table view.
 ![MaskMap](Resources/MaskMap.gif)
 <br/><br/>
 
