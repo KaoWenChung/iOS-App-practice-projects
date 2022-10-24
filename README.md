@@ -2,10 +2,9 @@
 It's a repository for me to practice iOS app development via books and online courses.<br/>
 Including iOS SDK features and third-library framework API integration.<br/>
 Resources:
-- [AppCoda](https://www.appcoda.com/)
-- [Udacity](https://classroom.udacity.com/courses/ud585)
-- [raywenderlich](https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app/lessons/1)
-- [彼得潘的文章](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E5%95%8F%E9%A1%8C%E8%A7%A3%E7%AD%94%E9%9B%86/%E7%94%A8-jsondecoder-%E8%A7%A3%E6%9E%90%E5%8F%A3%E7%BD%A9%E5%89%A9%E9%A4%98%E6%95%B8%E9%87%8F-api-a32e967ec9c1)
+- [AppCoda](https://www.appcoda.com/) project from 1 - 39
+- [raywenderlich](https://www.raywenderlich.com/4919757-your-first-ios-and-swiftui-app/lessons/1) project 40_Bullseye
+- [Udacity](https://classroom.udacity.com/courses/ud585) project 41_PitchPerfect
 
 ## 01 - AdaptiveUI
 Implemented the auto layout UI with storyboard.<br/>
@@ -224,7 +223,6 @@ Implemented a application to Identify image via Apple Core ML model [Inception v
 <br/><br/>
 
 ## 37 - ARKitDemo
-使用 SpriteKit 與 ARKit 做一個簡單的 AR APP，實作以下功能。
 - SpriteKit
 - ARKit
 - Add 2D model into reality environment
@@ -254,8 +252,7 @@ It's an app that can record/ change/ play users' voices.
 <br/><br/>
 
 ## 42 - MaskMap
-Reference: [彼得潘的文章](https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E5%95%8F%E9%A1%8C%E8%A7%A3%E7%AD%94%E9%9B%86/%E7%94%A8-jsondecoder-%E8%A7%A3%E6%9E%90%E5%8F%A3%E7%BD%A9%E5%89%A9%E9%A4%98%E6%95%B8%E9%87%8F-api-a32e967ec9c1)<br/>
-[API](https://data.gov.tw/dataset/116285)<br/>
+Reference: [API](https://data.gov.tw/dataset/116285)<br/>
 It's an app that can show the number of masks within the stores on the table view.
 ![MaskMap](Resources/MaskMap.gif)
 <br/><br/>
